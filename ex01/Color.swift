@@ -9,7 +9,7 @@ enum Color: String, CaseIterable {
     case spade
     case diamond
     case heart
-    case clover
+    case club
 
     static let allColors = allCases
 }
