@@ -16,7 +16,11 @@ class Deck: NSObject {
 }
 
 extension Array {
-    mutating func mix() {
-        self.
+    mutating func shuffle() {
+        guard count > 1 else { return }
+        for index in indices {
+            let newpos: Int = numericCast(arc4random_uniform(numericCast(count)))
+            swapAt(index, newpos)
+        }
     }
 }
