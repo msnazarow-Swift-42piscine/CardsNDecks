@@ -6,7 +6,8 @@
 //
 
 enum Value: Int, CaseIterable {
-    case two
+    case ace = 1
+    case two 
     case three
     case four
     case five
@@ -18,7 +19,6 @@ enum Value: Int, CaseIterable {
     case jack
     case queen
     case king
-    case ace
 
     static let allValues = allCases
 }

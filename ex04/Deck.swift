@@ -15,7 +15,7 @@ class Deck: NSObject {
     static let allCards = allSpades + allDiamonds + allHearts + allClubs
 
     var cards = allCards
-    var discard: [Card] = []
+    var discards: [Card] = []
     var outs: [Card] = []
 
     override var description: String {
@@ -35,7 +35,7 @@ class Deck: NSObject {
 
     func fold(c: Card) {
         if outs.contains(c) {
-            discard.append(c)
+            discards.append(c)
         }
     }
 }

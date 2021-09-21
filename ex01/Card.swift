@@ -12,7 +12,7 @@ class Card: NSObject {
     let value: Value
 
     override var description: String {
-        "\(value.rawValue) \(color)"
+        "(\(value.rawValue), \(color.rawValue.capitalized))"
     }
 
     init(c: Color, v: Value) {
@@ -23,6 +23,10 @@ class Card: NSObject {
     override func isEqual(_ object: Any?) -> Bool {
         guard let card = object as? Card else { return false }
         return color == card.color && value == card.value
+    }
+    
+    static func ==(lhs: Card, rhs: Card) -> Bool {
+        return lhs.color == rhs.color && lhs.value == rhs.value
     }
 }
 

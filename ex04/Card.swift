@@ -12,7 +12,7 @@ class Card: NSObject, Comparable {
     let value: Value
 
     override var description: String {
-        "\(value.rawValue) \(color.rawValue.capitalized)"
+        "(\(value.rawValue), \(color.rawValue.capitalized))"
     }
 
     init(c: Color, v: Value) {
