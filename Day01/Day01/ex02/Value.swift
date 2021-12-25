@@ -19,6 +19,6 @@ enum Value: Int, CaseIterable {
     case jack
     case queen
     case king
-    
+
     static let allValues = allCases
 }

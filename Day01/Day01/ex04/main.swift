@@ -10,7 +10,7 @@ print("SortedDeck = \(sortedDeck)\n")
 let shuffledDeck = Deck(shuffle: true)
 print("ShuffledDeck = \(shuffledDeck)\n")
 
-for _ in 0...10 {
+for _ in 0 ... 10 {
     shuffledDeck.draw()
 }
 

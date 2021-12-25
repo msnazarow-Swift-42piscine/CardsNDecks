@@ -7,7 +7,7 @@
 
 enum Value: Int, CaseIterable {
     case ace = 1
-    case two 
+    case two
     case three
     case four
     case five

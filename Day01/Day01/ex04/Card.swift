@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Card: NSObject {
+class Card: NSObject, Comparable {
     let color: Color
     let value: Value
 
@@ -24,9 +24,16 @@ class Card: NSObject {
         guard let card = object as? Card else { return false }
         return color == card.color && value == card.value
     }
-    
-    static func ==(lhs: Card, rhs: Card) -> Bool {
+
+    static func == (lhs: Card, rhs: Card) -> Bool {
         return lhs.color == rhs.color && lhs.value == rhs.value
     }
-}
 
+    static func < (lhs: Card, rhs: Card) -> Bool {
+        if lhs.color != rhs.color {
+            return lhs.color < rhs.color
+        } else {
+            return lhs.value < rhs.value
+        }
+    }
+}

@@ -1,6 +1,6 @@
 //
 //  Color.swift
-//  
+//
 //
 //  Created by out-nazarov2-ms on 18.09.2021.
 //

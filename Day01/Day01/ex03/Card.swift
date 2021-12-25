@@ -25,4 +25,3 @@ class Card: NSObject {
         return color == card.color && value == card.value
     }
 }
-

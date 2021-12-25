@@ -7,6 +7,6 @@
 
 for card in Color.allCases {
     for value in Value.allCases {
-        print ("\(card) \(value)")
+        print("\(card) \(value)")
     }
 }
