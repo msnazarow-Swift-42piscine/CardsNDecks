@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3E3714A026FA117B006CF14C"
-               BuildableName = "ex01"
-               BlueprintName = "ex01"
+               BuildableName = "Day01.ex01"
+               BlueprintName = "Day01.ex01"
                ReferencedContainer = "container:Day01.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3E3714A026FA117B006CF14C"
-            BuildableName = "ex01"
-            BlueprintName = "ex01"
+            BuildableName = "Day01.ex01"
+            BlueprintName = "Day01.ex01"
             ReferencedContainer = "container:Day01.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3E3714A026FA117B006CF14C"
-            BuildableName = "ex01"
-            BlueprintName = "ex01"
+            BuildableName = "Day01.ex01"
+            BlueprintName = "Day01.ex01"
             ReferencedContainer = "container:Day01.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

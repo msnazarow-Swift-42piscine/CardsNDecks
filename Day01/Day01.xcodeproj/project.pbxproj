@@ -102,11 +102,11 @@
 		3E0689D82774784800C6961D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		3E0689D92774784800C6961D /* Value.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Value.swift; sourceTree = "<group>"; };
 		3E0689DA2774784800C6961D /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
-		3E37146026FA10CB006CF14C /* ex00 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ex00; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E3714BD26FA117B006CF14C /* ex01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ex01; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E3714DF26FA1186006CF14C /* ex02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ex02; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E3714FD26FA1186006CF14C /* ex03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ex03; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E37151B26FA1189006CF14C /* ex04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ex04; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E37146026FA10CB006CF14C /* Day01.ex00 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Day01.ex00; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E3714BD26FA117B006CF14C /* Day01.ex01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Day01.ex01; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E3714DF26FA1186006CF14C /* Day01.ex02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Day01.ex02; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E3714FD26FA1186006CF14C /* Day01.ex03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Day01.ex03; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E37151B26FA1189006CF14C /* Day01.ex04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Day01.ex04; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,11 +216,11 @@
 		3E37146126FA10CB006CF14C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3E37146026FA10CB006CF14C /* ex00 */,
-				3E3714BD26FA117B006CF14C /* ex01 */,
-				3E3714DF26FA1186006CF14C /* ex02 */,
-				3E3714FD26FA1186006CF14C /* ex03 */,
-				3E37151B26FA1189006CF14C /* ex04 */,
+				3E37146026FA10CB006CF14C /* Day01.ex00 */,
+				3E3714BD26FA117B006CF14C /* Day01.ex01 */,
+				3E3714DF26FA1186006CF14C /* Day01.ex02 */,
+				3E3714FD26FA1186006CF14C /* Day01.ex03 */,
+				3E37151B26FA1189006CF14C /* Day01.ex04 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -240,9 +240,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3E37145F26FA10CB006CF14C /* ex00 */ = {
+		3E37145F26FA10CB006CF14C /* Day01.ex00 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E37146726FA10CB006CF14C /* Build configuration list for PBXNativeTarget "ex00" */;
+			buildConfigurationList = 3E37146726FA10CB006CF14C /* Build configuration list for PBXNativeTarget "Day01.ex00" */;
 			buildPhases = (
 				3E37145C26FA10CB006CF14C /* Sources */,
 				3E37145D26FA10CB006CF14C /* Frameworks */,
@@ -252,14 +252,14 @@
 			);
 			dependencies = (
 			);
-			name = ex00;
+			name = Day01.ex00;
 			productName = Day01;
-			productReference = 3E37146026FA10CB006CF14C /* ex00 */;
+			productReference = 3E37146026FA10CB006CF14C /* Day01.ex00 */;
 			productType = "com.apple.product-type.tool";
 		};
-		3E3714A026FA117B006CF14C /* ex01 */ = {
+		3E3714A026FA117B006CF14C /* Day01.ex01 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E3714BA26FA117B006CF14C /* Build configuration list for PBXNativeTarget "ex01" */;
+			buildConfigurationList = 3E3714BA26FA117B006CF14C /* Build configuration list for PBXNativeTarget "Day01.ex01" */;
 			buildPhases = (
 				3E3714A126FA117B006CF14C /* Sources */,
 				3E3714B826FA117B006CF14C /* Frameworks */,
@@ -269,14 +269,14 @@
 			);
 			dependencies = (
 			);
-			name = ex01;
+			name = Day01.ex01;
 			productName = Day01;
-			productReference = 3E3714BD26FA117B006CF14C /* ex01 */;
+			productReference = 3E3714BD26FA117B006CF14C /* Day01.ex01 */;
 			productType = "com.apple.product-type.tool";
 		};
-		3E3714C226FA1186006CF14C /* ex02 */ = {
+		3E3714C226FA1186006CF14C /* Day01.ex02 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E3714DC26FA1186006CF14C /* Build configuration list for PBXNativeTarget "ex02" */;
+			buildConfigurationList = 3E3714DC26FA1186006CF14C /* Build configuration list for PBXNativeTarget "Day01.ex02" */;
 			buildPhases = (
 				3E3714C326FA1186006CF14C /* Sources */,
 				3E3714DA26FA1186006CF14C /* Frameworks */,
@@ -286,14 +286,14 @@
 			);
 			dependencies = (
 			);
-			name = ex02;
+			name = Day01.ex02;
 			productName = Day01;
-			productReference = 3E3714DF26FA1186006CF14C /* ex02 */;
+			productReference = 3E3714DF26FA1186006CF14C /* Day01.ex02 */;
 			productType = "com.apple.product-type.tool";
 		};
-		3E3714E026FA1186006CF14C /* ex03 */ = {
+		3E3714E026FA1186006CF14C /* Day01.ex03 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E3714FA26FA1186006CF14C /* Build configuration list for PBXNativeTarget "ex03" */;
+			buildConfigurationList = 3E3714FA26FA1186006CF14C /* Build configuration list for PBXNativeTarget "Day01.ex03" */;
 			buildPhases = (
 				3E3714E126FA1186006CF14C /* Sources */,
 				3E3714F826FA1186006CF14C /* Frameworks */,
@@ -303,14 +303,14 @@
 			);
 			dependencies = (
 			);
-			name = ex03;
+			name = Day01.ex03;
 			productName = Day01;
-			productReference = 3E3714FD26FA1186006CF14C /* ex03 */;
+			productReference = 3E3714FD26FA1186006CF14C /* Day01.ex03 */;
 			productType = "com.apple.product-type.tool";
 		};
-		3E3714FE26FA1189006CF14C /* ex04 */ = {
+		3E3714FE26FA1189006CF14C /* Day01.ex04 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E37151826FA1189006CF14C /* Build configuration list for PBXNativeTarget "ex04" */;
+			buildConfigurationList = 3E37151826FA1189006CF14C /* Build configuration list for PBXNativeTarget "Day01.ex04" */;
 			buildPhases = (
 				3E3714FF26FA1189006CF14C /* Sources */,
 				3E37151626FA1189006CF14C /* Frameworks */,
@@ -320,9 +320,9 @@
 			);
 			dependencies = (
 			);
-			name = ex04;
+			name = Day01.ex04;
 			productName = Day01;
-			productReference = 3E37151B26FA1189006CF14C /* ex04 */;
+			productReference = 3E37151B26FA1189006CF14C /* Day01.ex04 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -352,11 +352,11 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3E37145F26FA10CB006CF14C /* ex00 */,
-				3E3714A026FA117B006CF14C /* ex01 */,
-				3E3714C226FA1186006CF14C /* ex02 */,
-				3E3714E026FA1186006CF14C /* ex03 */,
-				3E3714FE26FA1189006CF14C /* ex04 */,
+				3E37145F26FA10CB006CF14C /* Day01.ex00 */,
+				3E3714A026FA117B006CF14C /* Day01.ex01 */,
+				3E3714C226FA1186006CF14C /* Day01.ex02 */,
+				3E3714E026FA1186006CF14C /* Day01.ex03 */,
+				3E3714FE26FA1189006CF14C /* Day01.ex04 */,
 			);
 		};
 /* End PBXProject section */
@@ -659,7 +659,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E37146726FA10CB006CF14C /* Build configuration list for PBXNativeTarget "ex00" */ = {
+		3E37146726FA10CB006CF14C /* Build configuration list for PBXNativeTarget "Day01.ex00" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E37146826FA10CB006CF14C /* Debug */,
@@ -668,7 +668,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E3714BA26FA117B006CF14C /* Build configuration list for PBXNativeTarget "ex01" */ = {
+		3E3714BA26FA117B006CF14C /* Build configuration list for PBXNativeTarget "Day01.ex01" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E3714BB26FA117B006CF14C /* Debug */,
@@ -677,7 +677,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E3714DC26FA1186006CF14C /* Build configuration list for PBXNativeTarget "ex02" */ = {
+		3E3714DC26FA1186006CF14C /* Build configuration list for PBXNativeTarget "Day01.ex02" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E3714DD26FA1186006CF14C /* Debug */,
@@ -686,7 +686,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E3714FA26FA1186006CF14C /* Build configuration list for PBXNativeTarget "ex03" */ = {
+		3E3714FA26FA1186006CF14C /* Build configuration list for PBXNativeTarget "Day01.ex03" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E3714FB26FA1186006CF14C /* Debug */,
@@ -695,7 +695,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E37151826FA1189006CF14C /* Build configuration list for PBXNativeTarget "ex04" */ = {
+		3E37151826FA1189006CF14C /* Build configuration list for PBXNativeTarget "Day01.ex04" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E37151926FA1189006CF14C /* Debug */,
